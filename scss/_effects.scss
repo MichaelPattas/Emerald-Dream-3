@@ -1,0 +1,19 @@
+.text-effect {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.8s all ease-in-out;
+}
+
+.text-appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container-effect {
+  opacity: 0;
+  transition: 2s all ease-in-out;
+}
+
+.container-appear {
+  opacity: 1;
+}

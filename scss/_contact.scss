@@ -1,0 +1,37 @@
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  height: 100vh;
+  @media only screen and (max-width: 650px) {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-image {
+    height: 100%;
+    background: url(../dist/img/contact-img.jpg) no-repeat left center/cover;
+  }
+  .contact-content {
+    display: grid;
+    grid-row: 2 2 1;
+    height: 100%;
+    font-size: 1rem;
+
+    li {
+      padding: 0.5rem;
+      letter-spacing: 1px;
+      @media only screen and (max-width: 650px) {
+        font-size: 1.5rem;
+      }
+    }
+    a {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.footer-contact {
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
