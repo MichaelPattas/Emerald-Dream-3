@@ -1,88 +1,116 @@
-/* Slideshow container */
+.slideshow {
+  z-index: 1;
+  height: 60vh;
+  overflow: hidden;
+  box-shadow: 2px 2px 7px 2px #0000001f;
+}
+
 .slideshow-container {
-  max-width: 90%;
-  height: 110vh;
-  position: relative;
-  margin: auto;
   display: flex;
-
-  align-items: center;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-  height: 90vh;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 2rem;
-  color: white;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  background: $main-color;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .slideshow-container {
+  background: white url("../dist/img/gallery-background.svg") no-repeat center
+    center/cover;
+  height: 100%;
+  .slideshow-image {
+    width: 50%;
     height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
-  .prev,
-  .next {
-    display: none;
+
+  .slideshow-content {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      width: 70%;
+      margin: 0 auto;
+    }
   }
-  .mySlides {
-    padding-top: 1rem;
-    height: 40vh;
+}
+
+.slideshow-button {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  background: none;
+  border: none;
+  outline: none;
+  color: $dark-color;
+  cursor: pointer;
+  transition: 2s ease-in-out;
+}
+
+.slideshow-button :hover {
+  color: $main-color;
+}
+
+@media only screen and (max-width: 800px) {
+  .slideshow {
+    height: 120vh;
+    margin-bottom: 35%;
+  }
+
+  .slideshow-container {
+    display: flex;
+    flex-direction: column;
+
+    .slideshow-image {
+      width: 100%;
+      height: 100%;
+    }
+
+    .slideshow-content {
+      width: 100%;
+      padding: 3rem;
+      p {
+        width: 100%;
+        margin: 1rem auto;
+      }
+    }
+  }
+
+  .slideshow-button {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.25rem;
+    height: 3rem;
+    width: 4rem;
+  }
+}
+
+//Gallery images
+.gallery-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10% 0;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5em;
+  img {
+    box-shadow: 3px 3px 10px 3px #0000003d;
+    border-radius: 5px;
+  }
+  img:hover {
+    transform: scaleY(1.001);
+  }
+}
+
+.gallery-title {
+  margin: 4rem auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .gallery-images {
+    grid-template-columns: 1fr;
   }
 }

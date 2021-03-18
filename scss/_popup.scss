@@ -1,0 +1,43 @@
+.popup {
+  display: none;
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  padding: 4rem;
+  text-align: center;
+  z-index: 999;
+  background: url("../dist/img/Repeating-Chevrons.svg");
+  p {
+    font-size: 1.2rem;
+  }
+  span {
+    font-weight: 600;
+    color: $main-color;
+  }
+  button {
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 0.75rem;
+    font-size: 1.5;
+    font-weight: 600;
+    background: $main-color;
+    color: $light-color;
+    border: none;
+    transition: 0.5s ease-in-out;
+  }
+  button:hover {
+    background: $dark-color;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .popup {
+    top: 10%;
+    width: 90vw;
+    padding: 2rem;
+  }
+}
