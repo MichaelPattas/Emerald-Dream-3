@@ -5,28 +5,24 @@ const slides = [
   {
     image: "dist/img/img3.jpg",
     header: "Bedroom",
-    descrption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum sed veritatis ratione! Similique quis placeat unde libero ea assumenda porro id, tenetur corrupti, odio consectetur obcaecati ut nulla maiores.",
+    descrption: "",
   },
   {
     image: "dist/img/img19.jpg",
     header: "Living Room",
-    descrption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum sed veritatis ratione! Similique quis placeat unde libero ea assumenda porro id, tenetur corrupti, odio consectetur obcaecati ut nulla maiores.",
+    descrption: "",
   },
 
   {
     image: "dist/img/img32.jpg",
     header: "Bathroom",
-    descrption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum sed veritatis ratione! Similique quis placeat unde libero ea assumenda porro id, tenetur corrupti, odio consectetur obcaecati ut nulla maiores.",
+    descrption: "",
   },
 
   {
     image: "dist/img/img11.jpg",
     header: "Outdoor Space",
-    descrption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum sed veritatis ratione! Similique quis placeat unde libero ea assumenda porro id, tenetur corrupti, odio consectetur obcaecati ut nulla maiores.",
+    descrption: "",
   },
 ];
 
