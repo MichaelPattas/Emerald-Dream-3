@@ -24,7 +24,8 @@ const slides = [
   {
     image: "dist/img/img11.jpg",
     header: "Outdoor Space",
-    descrption: "Dream-like outdoor space with a jacuzzi beautiful palm trees ",
+    descrption:
+      "Dream-like outdoor space with a jacuzzi beautiful and  palm trees ",
   },
   {
     image: "dist/img/img22.jpg",

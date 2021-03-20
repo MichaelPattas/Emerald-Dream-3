@@ -7,7 +7,7 @@
   text-align: center;
   justify-content: space-evenly;
   color: $light-color;
-  padding: 1rem;
+  padding: 0rem 1.5rem;
 
   h2 {
     color: $light-color;
@@ -25,6 +25,7 @@
 
   img {
     width: 50%;
+
     height: auto;
   }
 }

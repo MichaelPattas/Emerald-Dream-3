@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   color: #f4f4f4;
+  opacity: 1;
 
   h1 {
     font-size: 8.2rem;
@@ -18,7 +19,7 @@
     letter-spacing: 2px;
   }
   h2 {
-    margin-top: -5rem;
+    margin-top: -4rem;
     color: $main-color;
   }
   h3 {
@@ -33,6 +34,7 @@
     min-height: 100vh;
     width: 100%;
     border-radius: none;
+    margin-bottom: 4rem;
     h1 {
       font-size: 4.2rem;
       font-weight: 500;

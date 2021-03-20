@@ -201,3 +201,13 @@
     top: 2%;
   }
 }
+
+@media only screen and (max-height: 350px) {
+  .navbar {
+    height: 35vh;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
