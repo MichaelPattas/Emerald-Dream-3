@@ -20,6 +20,23 @@
   box-shadow: 5px 5px 15px 5px #0000003d;
 }
 
+.about-btn {
+  padding: 1rem;
+  margin-top: 0.75rem;
+  font-size: 1.5;
+  font-weight: 400;
+  border-radius: 5px;
+  background: $main-color;
+  color: $light-color;
+  border: none;
+  width: 10rem;
+  transition: 0.5s ease-in-out;
+}
+
+.about-btn:hover {
+  background: $dark-color;
+}
+
 @media only screen and (max-width: 800px) {
   .about {
     flex-direction: column;

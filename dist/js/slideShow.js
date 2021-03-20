@@ -5,24 +5,32 @@ const slides = [
   {
     image: "dist/img/img3.jpg",
     header: "Bedroom",
-    descrption: "",
+    descrption:
+      "Our bedrooms have double comfortable beds wooden ceiling beautiful stone-made walls all of our rooms have  air-conditioning, clean sheets are also provided  ",
   },
   {
-    image: "dist/img/img19.jpg",
+    image: "dist/img/img8.jpg",
     header: "Living Room",
-    descrption: "",
+    descrption:
+      "Our beautifully decorated living rooms include a comfortable couch, sofa, and a flat-screen TV a perfect place to relax",
   },
 
   {
     image: "dist/img/img32.jpg",
     header: "Bathroom",
-    descrption: "",
+    descrption: "spacious and luxurious bathrooms clean towels are included",
   },
 
   {
     image: "dist/img/img11.jpg",
     header: "Outdoor Space",
-    descrption: "",
+    descrption: "Dream-like outdoor space with a jacuzzi beautiful palm trees ",
+  },
+  {
+    image: "dist/img/img22.jpg",
+    header: "Kitchen",
+    descrption:
+      "Our fully equipped kitchen includes oven, fridge, toaster, boiler, coffee machine, cutlery",
   },
 ];
 

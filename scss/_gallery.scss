@@ -77,6 +77,11 @@
       }
     }
   }
+  @media only screen and (max-height: 400px) {
+    .slideshow-image {
+      display: none;
+    }
+  }
 
   .slideshow-button {
     position: absolute;
@@ -104,8 +109,9 @@
 }
 
 .gallery-title {
-  margin: 4rem auto;
   text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
 }
 
 @media only screen and (max-width: 800px) {

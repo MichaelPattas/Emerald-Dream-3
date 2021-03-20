@@ -177,6 +177,21 @@
   height: auto;
   box-shadow: 5px 5px 15px 5px #0000003d; }
 
+.about-btn {
+  padding: 1rem;
+  margin-top: 0.75rem;
+  font-size: 1.5;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #daa520;
+  color: #f4f4f4;
+  border: none;
+  width: 10rem;
+  transition: 0.5s ease-in-out; }
+
+.about-btn:hover {
+  background: #333; }
+
 @media only screen and (max-width: 800px) {
   .about {
     flex-direction: column; }
@@ -285,7 +300,13 @@
       padding: 3rem; }
       .slideshow-container .slideshow-content p {
         width: 100%;
-        margin: 1rem auto; }
+        margin: 1rem auto; } }
+
+@media only screen and (max-width: 800px) and (max-height: 400px) {
+  .slideshow-image {
+    display: none; } }
+
+@media only screen and (max-width: 800px) {
   .slideshow-button {
     position: absolute;
     bottom: 0.25rem;
@@ -306,8 +327,9 @@
     transform: scaleY(1.001); }
 
 .gallery-title {
-  margin: 4rem auto;
-  text-align: center; }
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem; }
 
 @media only screen and (max-width: 800px) {
   .gallery-images {
@@ -391,7 +413,7 @@ footer {
       color: #f4f4f4;
       font-weight: 400;
       letter-spacing: 2px;
-      font-size: 3rem; } }
+      font-size: 1.2rem; } }
 
 .popup {
   display: none;
@@ -466,7 +488,7 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1.6;
+  line-height: 1.4;
   background: #f4f7f6; }
 
 a {
