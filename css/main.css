@@ -225,7 +225,7 @@
 
 .location {
   min-height: 70vh;
-  background: #444;
+  background: #666;
   box-shadow: 5px 5px 15px 5px #0000003d;
   display: flex;
   align-items: center;
@@ -243,6 +243,7 @@
     height: auto; }
   .location img {
     width: 50%;
+    border-radius: 5%;
     height: auto; }
 
 @media only screen and (max-width: 800px) {
@@ -287,6 +288,7 @@
     justify-content: center; }
     .slideshow-container .slideshow-content p {
       width: 70%;
+      font-size: 1.4rem;
       margin: 0 auto; }
 
 .slideshow-button {
