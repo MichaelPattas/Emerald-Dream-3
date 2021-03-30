@@ -67,16 +67,17 @@
   text-align: center;
   z-index: 20;
   animation-name: fade-in;
-  animation-duration: 4s;
+  animation-duration: 3s;
   display: none;
 
   ul {
     font-size: 3rem;
     margin-top: 1.5rem;
   }
-
+  li {
+    margin-top: 0.5rem;
+  }
   li a {
-    margin-top: 2.5rem;
     transition: 0.2s ease-in;
   }
   li a:hover {
@@ -192,8 +193,11 @@
   .burger-nav-menu {
     ul {
       font-size: 1.5rem;
-      margin: 0 auto;
+      margin: 1rem auto;
       text-align: center;
+    }
+    li {
+      margin-top: 1.5rem;
     }
   }
 

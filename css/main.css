@@ -67,8 +67,9 @@
   .burger-nav-menu ul {
     font-size: 3rem;
     margin-top: 1.5rem; }
+  .burger-nav-menu li {
+    margin-top: 0.5rem; }
   .burger-nav-menu li a {
-    margin-top: 2.5rem;
     transition: 0.2s ease-in; }
   .burger-nav-menu li a:hover {
     color: #e7af2b; }
@@ -154,8 +155,10 @@
     display: none; }
   .burger-nav-menu ul {
     font-size: 1.5rem;
-    margin: 0 auto;
+    margin: 1rem auto;
     text-align: center; }
+  .burger-nav-menu li {
+    margin-top: 1.5rem; }
   .nav-tgl {
     top: 2%; } }
 
