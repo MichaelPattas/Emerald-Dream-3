@@ -53,5 +53,3 @@ const changeSlide = () => {
   slideHeader.innerText = slides[slideNumber].header;
   slideParagraph.innerText = slides[slideNumber].descrption;
 };
-
-console.log(slideNumber);

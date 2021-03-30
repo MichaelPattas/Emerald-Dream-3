@@ -23,4 +23,4 @@ sections.forEach((section, index) => {
   observer.observe(section);
 });
 
-window.onload(removeClass());
+window.onload();
