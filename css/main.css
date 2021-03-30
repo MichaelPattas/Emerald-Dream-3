@@ -66,9 +66,9 @@
   display: none; }
   .burger-nav-menu ul {
     font-size: 3rem;
-    padding-top: 1.5rem; }
+    margin-top: 1.5rem; }
   .burger-nav-menu li a {
-    padding-top: 1.5rem;
+    margin-top: 2.5rem;
     transition: 0.2s ease-in; }
   .burger-nav-menu li a:hover {
     color: #e7af2b; }
@@ -418,7 +418,7 @@ footer {
   color: #f4f4f4;
   opacity: 1; }
   .showcase h1 {
-    font-size: 8.2rem;
+    font-size: 6.2rem;
     font-weight: 500;
     letter-spacing: 2px; }
   .showcase h2 {
